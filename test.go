@@ -11,4 +11,6 @@ func main() {
 	var p *string = &str // p 是指向 str 的指针
 	*p = "Hello"
 	fmt.Println(str) // Hello 修改了 p，str 的值也发生了改变
+	//test github
+	fmt.Println(str) // Hello 修改了 p，str 的值也发生了改变
 }
